@@ -23,6 +23,7 @@ wayland = ["wayland-client", "wayland-protocols", "sctk"]
 wayland-dlopen = ["sctk/dlopen", "wayland-client/dlopen"]
 kms = ["drm", "input", "calloop", "xkbcommon", "udev", "parking_lot"]
 kms-ext = ["libseat"]
+wayland-csd-adwaita = []
 
 [dependencies]
 instant = { version = "0.1.12", features = ["wasm-bindgen"] }
